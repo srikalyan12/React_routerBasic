@@ -31,3 +31,24 @@
     transform: rotate(360deg);
   }
 }
+.wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  border: 1px solid black;
+}
+.uistyle {
+  padding: 30px;
+}
+.uistyle-link {
+  text-decoration: none;
+  padding: 5px;
+  margin: 0px 5px;
+  background-color: #bcc5e5;
+  opacity: 1;
+}
+.uistyle-link:hover {
+  opacity: .7;
+  color:rgb(255, 111, 1);
+  outline: 2px solid rgb(255, 111, 1);
+}
